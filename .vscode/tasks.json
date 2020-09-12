@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-g",
+                "main.c",
+                "main.h",
+                ".\\GeneralFunctions\\OutputList.c",
+                ".\\GeneralFunctions\\OutputList.h",
+                ".\\InsertionSort\\InsertionSort.c",
+                ".\\InsertionSort\\InsertionSort.h",
+                "-o",
+                "main",
+                "--save-temps"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
