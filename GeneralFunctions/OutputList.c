@@ -2,18 +2,36 @@
 
 int OutputList_int(int* DHead , int DNum)
 {
-    for(int i = 0;i < DNum;i++)
+	int i = 0;
+    for(i = 0;i < DNum;i++)
     {
-        printf("%d\t",DHead[i]);
+        printf("%d",DHead[i]);
+        if(i<DNum-1)
+		{
+			printf("\t");
+		}
+		else
+		{
+			puts("\nEND\n");
+		}
     }
     return 0;
 }
 
 int OutputList_float(float* DHead , int DNum)
 {
-    for(int i = 0;i < DNum;i++)
+	int i = 0;
+    for(i = 0;i < DNum;i++)
     {
-        printf("%f\t",DHead[i]);
+        printf("%f",DHead[i]);
+        if(i<DNum-1)
+		{
+			printf("\t");
+		}
+		else
+		{
+			puts("\nEND\n");
+		}
     }
     return 0;
 }

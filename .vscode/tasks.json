@@ -8,13 +8,12 @@
         "args": ["-g",
                 "main.c",
                 "main.h",
-                ".\\GeneralFunctions\\OutputList.c",
-                ".\\GeneralFunctions\\OutputList.h",
-                ".\\InsertionSort\\InsertionSort.c",
-                ".\\InsertionSort\\InsertionSort.h",
+                "Logic\\Logic.h",
+                "Logic\\Logic.c",
                 "-o",
                 "main",
-                "--save-temps"],
+                ],
+                //"--save-temps"
         "group": {
           "kind": "build",
           "isDefault": true
