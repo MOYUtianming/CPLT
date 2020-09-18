@@ -3,8 +3,8 @@
 /**
  * @brief  the main function for test.
  * @note   
- * @param  argc: 
- * @param  argv[]: 
+ * @param  argc: the input parameters' number.
+ * @param  argv[]: the input parameters' location.
 * @retval  0
  */
 int main(int argc , int* argv[])
@@ -19,6 +19,7 @@ int main(int argc , int* argv[])
         OutputList_int(Datai , 7);
         */ 
     //Logic functions' test;
+    /*
         unsigned int TNum = 0xffffff00;
         unsigned int buf = 0;
         //function BitReverseAll
@@ -34,7 +35,7 @@ int main(int argc , int* argv[])
         unsigned int mask2N = 0xffff00ff;
         buf = BConfigCtrl(TNum,mask2N,SpecialBitReverse);
         printf("%8.0x\n",buf);
-
+    */
     return 0;
 
 }

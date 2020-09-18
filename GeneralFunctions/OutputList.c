@@ -1,5 +1,11 @@
 #include "OutputList.h"
-
+/**
+ * @brief  print integer numbers list
+ * @note   
+ * @param  DHead: the point towards the data head.
+ * @param  DNum: the number of numbers which needed to be printed.
+ * @retval 
+ */
 int OutputList_int(int* DHead , int DNum)
 {
 	int i = 0;
@@ -17,7 +23,13 @@ int OutputList_int(int* DHead , int DNum)
     }
     return 0;
 }
-
+/**
+ * @brief  print float numbers list
+ * @note   
+ * @param  DHead: the point towards the data head.
+ * @param  DNum: the number of numbers which needed to be printed.
+ * @retval 
+ */
 int OutputList_float(float* DHead , int DNum)
 {
 	int i = 0;

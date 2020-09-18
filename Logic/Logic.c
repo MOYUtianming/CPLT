@@ -3,8 +3,8 @@
 /**
  * @brief  reverse the whole bits' Values in the number.
  * @note   
- * @param  Num: 
- * @param  Mask: 
+ * @param  Num: the origin number
+ * @param  Mask: the mask code
  * @retval 
  */
 unsigned int BRevA(unsigned int Num)
@@ -16,9 +16,9 @@ unsigned int BRevA(unsigned int Num)
 /**
  * @brief  control Special bits' Values;
  * @note   
- * @param  Num: 
- * @param  mask: 
- * @param  Type: 
+ * @param  Num: the origin number
+ * @param  mask: the mask code
+ * @param  Type: chosen from SpecialBitTo0,SpecialBitTo1,SpecialBitReverse.
  * @retval 
  */
 unsigned int BConfigCtrl(unsigned int Num , unsigned int mask , char Type)

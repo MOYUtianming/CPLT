@@ -2,8 +2,8 @@
 /**
  * @brief  the Insertion Sort function for float data.
  * @note   
- * @param  DHead: 
- * @param  DLength: 
+ * @param  DHead: the point towards to the data head.
+ * @param  DLength: the length of the data.
  * @retval 
  */
 int InsertionSort_float(float* DHead , int DLength)
@@ -26,10 +26,10 @@ int InsertionSort_float(float* DHead , int DLength)
     return 0;
 }
 /**
- * @brief  the Insertion Sort function for int data.
+ * @brief  the Insertion Sort function for integer data.
  * @note   
- * @param  DHead: 
- * @param  DLength: 
+ * @param  DHead: the point towards to the data head.
+ * @param  DLength: the length of the data.
  * @retval 
  */
 int InsertionSort_int(int* DHead , int DLength)

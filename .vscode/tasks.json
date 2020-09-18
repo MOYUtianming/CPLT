@@ -12,8 +12,8 @@
                 "Logic\\Logic.c",
                 "-o",
                 "main",
+                "--save-temps"
                 ],
-                //"--save-temps"
         "group": {
           "kind": "build",
           "isDefault": true

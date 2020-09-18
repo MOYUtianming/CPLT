@@ -1,11 +1,9 @@
-#ifndef _OUTPUTLIST_H_
-#define _OUTPUTLIST_H_
+#ifndef _OUTPUTLIST_H
+#define _OUTPUTLIST_H
 
-//include builtin libs
-
+//Used standard libs
 # include<stdio.h>
-
-//functions Declarations
+//Functions declarations
 int OutputList_int(int*DHead , int DNum);
 int OutputList_float(float*DHead , int DNum);
 
