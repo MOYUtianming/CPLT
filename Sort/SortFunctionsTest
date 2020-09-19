@@ -1,0 +1,21 @@
+//Tasks.json needed
+    "GeneralFunctions\\OutputList.h",
+    "GeneralFunctions\\OutputList.c",
+    "GeneralFunctions\\Compare.c",
+    "GeneralFunctions\\Compare.h",
+    "Sort/InsertionSort\\InsertionSort.h",
+    "Sort/InsertionSort\\InsertionSort.c",
+    "Sort/MergeSort/MergeSort.h",
+    "Sort/MergeSort/MergeSort.c",
+//Sort functions' test;
+    float 	Dataf[7] = {7.1 , 6.2 , 5.3 , 4.4 , 3.5 , 2.6 , 1.7};
+    int Datai[7] = {53 , 51 , 42 , 31 , 22 , 18 , 9};
+
+    MergeSort_int(Datai , 0 , 6);
+    MergeSort_float(Dataf , 0 , 6);
+
+    InsertionSort_float(Dataf,7);
+    InsertionSort_int(Datai,7);
+
+    OutputList_float(Dataf , 7);
+    OutputList_int(Datai , 7);

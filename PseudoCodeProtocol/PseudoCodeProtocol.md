@@ -11,6 +11,9 @@
         ```
         >1. downto operator is used to explain the decrease process.
         >2. the flag hold it's value after the loop.
+        >3. the serial list including the limit point ,  
+        >   in other words , it means:  
+        >   for(**i=S-num**;**i<=E-num**;i = i+step-length)  
 3. "//" Head means comments.
 4. The sentence like j=i=e means multiple assignment(do i=e first then do j=i)
 5. Variables are limited to it's corresponding block.

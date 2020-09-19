@@ -8,14 +8,6 @@
         "args": ["-g",
                 "main.c",
                 "main.h",
-                //"Logic\\Logic.h",
-                //"Logic\\Logic.c",
-                //"GeneralFunctions\\OutputList.h",
-                //"GeneralFunctions\\OutputList.c",
-                //"Sort/InsertionSort\\InsertionSort.h",
-                //"Sort/InsertionSort\\InsertionSort.c",
-                "Sort/MergeSort/MergeSort.h",
-                "Sort/MergeSort/MergeSort.c",
                 "-o",
                 "main",
                 //"--save-temps"
@@ -26,4 +18,4 @@
         }
       }
     ]
-  }
+}

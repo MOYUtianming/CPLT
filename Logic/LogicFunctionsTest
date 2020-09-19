@@ -1,0 +1,20 @@
+//Tasks.json needed
+    "Logic\\Logic.h",
+    "Logic\\Logic.c",
+
+//Logic functions' test;
+    unsigned int TNum = 0xffffff00;
+    unsigned int buf = 0;
+    //function BitReverseAll
+        buf = BRevA(TNum);
+        printf("%8.0x\n",buf);
+    //function BitConfigurationControl
+        unsigned int mask20 = 0xffff00ff;
+        buf = BConfigCtrl(TNum,mask20,SpecialBitTo0);
+        printf("%8.0x\n",buf);
+        unsigned int mask21 = 0xffff00ff;
+        buf = BConfigCtrl(TNum,mask21,SpecialBitTo1);
+        printf("%8.0x\n",buf);
+        unsigned int mask2N = 0xffff00ff;
+        buf = BConfigCtrl(TNum,mask2N,SpecialBitReverse);
+        printf("%8.0x\n",buf);

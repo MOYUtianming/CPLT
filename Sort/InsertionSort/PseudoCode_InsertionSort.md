@@ -1,7 +1,7 @@
 > the pseudo code for Insertion Sort
 
 ```cpp
-INSERTION_SORT(A[n])
+INSERTION_SORT(A)
     for j = 2 to A.length
         key = A[j]
         //insert A[j] into the sorted sequence A[1..j-1].

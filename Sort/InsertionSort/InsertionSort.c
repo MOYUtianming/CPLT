@@ -15,7 +15,7 @@ int InsertionSort_float(float* DHead , int DLength)
     {
         float key = DHead[j];
         i = j-1;
-        while(i>0 && DHead[i]>key)
+        while(i>0 && CompareF(DHead[i],key))
         {
             DHead[i+1] = DHead[i];
             i = i-1;

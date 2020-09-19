@@ -16,6 +16,10 @@ int OutputList_int(int* DHead , int DNum)
 		{
 			printf("\t");
 		}
+		else if(i%5 == 0)
+		{
+			printf(";\n");
+		}
 		else
 		{
 			puts("\nEND\n");
