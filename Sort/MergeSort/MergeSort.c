@@ -108,6 +108,7 @@ int MergeSort_float(float* DHead , int DL , int DR)
         int Mp = (DL+DR)/2;
         MergeSort_float(DHead , DL , Mp);
         MergeSort_float(DHead , Mp+1 , DR);
+
         Merge_float(DHead , DL , Mp , DR);
     }
 

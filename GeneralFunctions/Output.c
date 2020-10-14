@@ -1,4 +1,4 @@
-#include "OutputList.h"
+#include "Output.h"
 /**
  * @brief  print integer numbers list
  * @note   
@@ -50,4 +50,22 @@ int OutputList_float(float* DHead , int DNum)
 		}
     }
     return 0;
+}
+/**
+ * @brief  output power's value.
+ * @note   
+ * @param  base: base of the number
+ * @param  index: index of the number
+ * @retval 0
+ */
+int power(int base,int index)
+{
+    int B_index=index;
+    int buf=base;
+    while(B_index-1>0)
+    {
+        B_index--;
+        buf*=base;
+    }
+    return buf;
 }
